@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PorterDuffColorFilterActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="original img" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="pick src color" />
+
+    <View
+        android:id="@+id/v_src_color"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ffff0000" />
+
+    <Spinner
+        android:id="@+id/spinner_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tv_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="src"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="result" />
+
+    <ImageView
+        android:id="@+id/iv_result"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_launcher" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ColorFilterDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_porter_duff_color_filter">PorterDuffColorFilterActivity</string>
+    <string name="title_activity_light_color_filter">LightColorFilterActivity</string>
+
+</resources>
